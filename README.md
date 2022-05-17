@@ -48,9 +48,10 @@ as the frontend can be hosted from anywhere ([CORS][1] permitting).
 The user-facing parts of the application are built in HTML/TypeScript/CSS using
 [Svelte](https://svelte.dev/), a frontend framework with a minimal footprint
 thanks to its compiler-based architecture. Svelte's compiler is invoked by
-[Vite](https://vitejs.dev/), a toolkit for lean frontend development which
-also handles the bundling of assets and provides a hot-reloading dev server for
-local development.
+[SvelteKit](https://kit.svelte.dev/), a toolkit for lean frontend development
+which also handles the bundling of assets and provides a hot-reloading dev
+server for local development. SvelteKit uses [Vite](https://vitejs.dev) under
+the hood but also provides a file-based routing solution.
 
 ### Backend
 
